@@ -1,7 +1,161 @@
+/* //common elements first */
+
 body{
-    background-color: #F9A0D2;
+    /* font-size: 100%; */
+    /* background: url("./images/jewelback.jpg")no-repeat fixed; */
+    background-color:black;
+    padding: 0;
+    margin: 0;
+    /* background-size: cover; */
+    display: inline-block;
+
 }
-h1{
-    text-align: left;
-    text-decoration-style: solid;
+   
+
+ p{
+     color:white;
+     font-size: 25px;
+     padding: 0px 0px 0px 10px;
+     margin: 20px 0px 0px 40px;
+     line-height: 1.5em;
+    text-indent: 0%;
+    border-left:#D3649F solid 5px;
+ }
+ h2{
+     color:white;
+     size: 2%;
+ }
+/* //header */
+header{
+    padding: 0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+    background-color:black;
 }
+header h1{
+    color:#D3649F;
+    font-size:70px;
+    letter-spacing: 1px;
+    margin:0px;
+    text-align: center;
+}
+section h1{
+    color:#D3649F;
+    font-size: 2em;
+}
+#nav3{
+    
+    background-color: black;
+    /* font-size: 10px; */
+    /* letter-spacing: 1em; */
+     padding: 0px 100px 0px 10px; 
+    margin: 20px ;
+    float:right;
+    word-spacing: 0in;
+    /* display: inline-block; */
+    font-size:25px;
+    text-size-adjust: auto;
+}
+
+#nav1{
+    float:left;
+    word-spacing: 0in;
+}
+#nav1 li a{
+    /* margin:0px;       */
+    padding:0px 20px 0px 20px;
+    /* letter-spacing: 2px; */
+    /* word-spacing: 4px; */
+    font-size: 20px;
+    text-align:center;
+}
+ ul{
+    align-content: center;
+    margin: 0;
+    padding:0;
+    background: black;
+    
+}
+nav ul li{
+display:inline-block;
+margin:0px 0px 0px 0px;
+padding:0px;
+}
+section {
+    display: inline-block;
+    color: grey;
+    background-color: black;
+    align-content: center;
+}
+
+.sidebar{
+    width:50%;
+    /* float:right; */
+    position:relative;
+    /* background-color:greenyellow; */
+    display: inline-block;
+    margin:0px 0px 0px 0px;
+    vertical-align: top;
+    /* border-left: solid brown 1px; */
+}
+
+.background{
+    width: 105vw;
+    float: left;
+    display: inline-block;
+}
+
+.rings{
+    /* float:left; */
+    /* position:relative; */
+    /* width: -190px; */
+   margin: 0px;
+    padding:0px;
+  display:inline-block;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+section div.rings img.ring{
+    width:50%;
+    height: 40%;
+    border: hotpink solid 2px;
+}
+
+footer{
+    background-color:black;
+    color: grey;
+    align-content: center;
+    margin:20px 10px 10px 10px;
+    padding:0px;
+    float: left;
+    width:100%;
+    display:inline-block;
+    
+}
+footer ul li{
+    align-content: center;
+    float:right;
+    list-style:none;
+    
+}
+
+footer li a{
+    color: grey;
+    margin:0px;
+    padding:0px 10px 0px 0px;
+    /* text-decoration: none; to remove underline text */
+}
+nav li a{
+letter-spacing: 5%;
+color:grey;
+}
+#main {
+    display: inline-block;
+    width: 600px;
+    margin: 20px 2px 0px 0px ;
+}
+nav li a:hover{
+color: #D3649F;
+background-color: grey;
+}
+
