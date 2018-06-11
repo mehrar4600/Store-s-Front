@@ -8,10 +8,7 @@ body{
     margin: 0;
     /* background-size: cover; */
     display: inline-block;
-
 }
-   
-
  p{
      color:white;
      font-size: 25px;
@@ -19,7 +16,7 @@ body{
      margin: 20px 0px 0px 40px;
      line-height: 1.5em;
     text-indent: 0%;
-    border-left:#D3649F solid 5px;
+    border-left:#D45F7A solid 5px;
  }
  h2{
      color:white;
@@ -32,39 +29,35 @@ header{
     background-color:black;
 }
 header h1{
-    color:#D3649F;
+    color:#D45F7A;
     font-size:70px;
     letter-spacing: 1px;
     margin:0px;
     text-align: center;
 }
 section h1{
-    color:#D3649F;
+    color:Grey;
     font-size: 2em;
 }
-#nav3{
-    
+#nav3{    
     background-color: black;
     /* font-size: 10px; */
     /* letter-spacing: 1em; */
-     padding: 0px 100px 0px 10px; 
+     padding: 0px 100px 0px 20px; 
     margin: 20px ;
     float:right;
     word-spacing: 0in;
     /* display: inline-block; */
     font-size:25px;
     text-size-adjust: auto;
-}
 
+}
 #nav1{
     float:left;
     word-spacing: 0in;
 }
 #nav1 li a{
-    /* margin:0px;       */
     padding:0px 20px 0px 20px;
-    /* letter-spacing: 2px; */
-    /* word-spacing: 4px; */
     font-size: 20px;
     text-align:center;
 }
@@ -72,8 +65,7 @@ section h1{
     align-content: center;
     margin: 0;
     padding:0;
-    background: black;
-    
+    background: black; 
 }
 nav ul li{
 display:inline-block;
@@ -86,7 +78,6 @@ section {
     background-color: black;
     align-content: center;
 }
-
 .sidebar{
     width:50%;
     /* float:right; */
@@ -97,17 +88,12 @@ section {
     vertical-align: top;
     /* border-left: solid brown 1px; */
 }
-
 .background{
     width: 105vw;
-    float: left;
+    /* float: left; */
     display: inline-block;
 }
-
 .rings{
-    /* float:left; */
-    /* position:relative; */
-    /* width: -190px; */
    margin: 0px;
     padding:0px;
   display:inline-block;
@@ -118,27 +104,23 @@ section {
 section div.rings img.ring{
     width:50%;
     height: 40%;
-    border: hotpink solid 2px;
+    border: grey solid 2px;
 }
-
 footer{
     background-color:black;
     color: grey;
     align-content: center;
     margin:20px 10px 10px 10px;
     padding:0px;
-    float: left;
+    /* float: left; */
     width:100%;
-    display:inline-block;
-    
+    display:inline-block;  
 }
 footer ul li{
     align-content: center;
     float:right;
-    list-style:none;
-    
+    list-style:none;    
 }
-
 footer li a{
     color: grey;
     margin:0px;
@@ -155,7 +137,7 @@ color:grey;
     margin: 20px 2px 0px 0px ;
 }
 nav li a:hover{
-color: #D3649F;
-background-color: grey;
+color: white;
+background-color: black;
 }
 
