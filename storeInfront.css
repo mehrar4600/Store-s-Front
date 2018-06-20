@@ -1,20 +1,15 @@
-/* //common elements first */
-
 body{
-    /* font-size: 100%; */
-    /* background: url("./images/jewelback.jpg")no-repeat fixed; */
     background-color:black;
-    padding: 0;
-    margin: 0;
-    /* background-size: cover; */
+    padding: auto;
+    margin: auto;
     display: inline-block;
 }
  p{
-     color:white;
-     font-size: 25px;
-     padding: 0px 0px 0px 10px;
-     margin: 20px 0px 0px 40px;
-     line-height: 1.5em;
+    color:white;
+    font-size: 25px;
+    padding: 0px 0px 0px 10px;
+    margin: 20px 0px 0px 40px;
+    line-height: 1.5em;
     text-indent: 0%;
     border-left:#D45F7A solid 5px;
  }
@@ -41,17 +36,21 @@ section h1{
 }
 #nav3{    
     background-color: black;
-    /* font-size: 10px; */
-    /* letter-spacing: 1em; */
-     padding: 0px 100px 0px 20px; 
+    padding: 0px 100px 0px 20px; 
     margin: 20px ;
     float:right;
     word-spacing: 0in;
-    /* display: inline-block; */
     font-size:25px;
-    text-size-adjust: auto;
-
+    
 }
+#nav3 li a{
+    margin:0px;
+    word-spacing: 1px;
+    padding-right: .3em;
+    height:10px;
+    width:100px;
+}
+
 #nav1{
     float:left;
     word-spacing: 0in;
@@ -68,9 +67,9 @@ section h1{
     background: black; 
 }
 nav ul li{
-display:inline-block;
-margin:0px 0px 0px 0px;
-padding:0px;
+    display:inline-block;
+    margin:0px 0px 0px 0px;
+    padding:0px;
 }
 section {
     display: inline-block;
@@ -80,26 +79,22 @@ section {
 }
 .sidebar{
     width:50%;
-    /* float:right; */
     position:relative;
-    /* background-color:greenyellow; */
     display: inline-block;
     margin:0px 0px 0px 0px;
     vertical-align: top;
-    /* border-left: solid brown 1px; */
 }
 .background{
-    width: 105vw;
-    /* float: left; */
+    width: 98vw;
     display: inline-block;
 }
 .rings{
-   margin: 0px;
+    margin: 0px;
     padding:0px;
-  display:inline-block;
-  width: 400px;
-  height: 400px;
-  text-align: center;
+    display:inline-block;
+    width: 400px;
+    height: 400px;
+    text-align: center;
 }
 section div.rings img.ring{
     width:50%;
@@ -112,8 +107,7 @@ footer{
     align-content: center;
     margin:20px 10px 10px 10px;
     padding:0px;
-    /* float: left; */
-    width:100%;
+    width:98%;
     display:inline-block;  
 }
 footer ul li{
@@ -121,15 +115,15 @@ footer ul li{
     float:right;
     list-style:none;    
 }
-footer li a{
+#footer li a{
     color: grey;
     margin:0px;
-    padding:0px 10px 0px 0px;
-    /* text-decoration: none; to remove underline text */
+    padding-right:1em;
+    text-align: center;
 }
 nav li a{
-letter-spacing: 5%;
-color:grey;
+    letter-spacing: 5%;
+    color:grey;
 }
 #main {
     display: inline-block;
@@ -137,7 +131,7 @@ color:grey;
     margin: 20px 2px 0px 0px ;
 }
 nav li a:hover{
-color: white;
-background-color: black;
+    color:goldenrod;
+    background-color: transparent;
 }
 
